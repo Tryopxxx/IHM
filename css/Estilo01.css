@@ -1,0 +1,43 @@
+header{
+	background: #C600FF;
+	padding: 20px; 
+	margin-bottom: 20px;
+	color:#EFC7FB;
+}
+
+.contenedor-main{
+	margin-bottom: 20px;
+}
+
+body{
+	/*background-image: url("fondo.webp");*/
+	background-image: url("fondo2.png");
+	/*background: #EFC7FB;*/
+}
+
+main{
+	background: #B085F7;
+	color: #EFC7FB;
+	padding: 20px;
+}
+
+aside{
+	background: #9D67DA;
+	color: #EFC7FB ;
+	padding: 20px 60px;
+	margin-bottom: 20px;
+	margin-top: 20px;
+}
+
+.widgets>div {
+	background: #FC7BFA;
+	color: #EFC7FB;
+	margin-bottom: 20px;
+	padding: 20px;
+}
+
+footer{
+	background: #A67299;
+	color:#EFC7FB;
+
+}
