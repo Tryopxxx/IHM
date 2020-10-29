@@ -2,7 +2,13 @@
 	margin-top: 10px;
 	margin-bottom: 10px;
 	background: #364D5D;
+	color: #849F9A;
 }
+
+.link-f{
+		color: #000;
+}
+
 .contenedor-imagen{
 	max-height: 450px;
 	overflow: hidden;
@@ -13,45 +19,47 @@
 	opacity: 0.7;
 }
 
+.acordeon .card-header{
+	background:#6B988E;
+}
+.acordeon .btn{
+	background: #6B988E;
+	color: #000;
+}
+.acordeon .collapse{
+	background: #A6B7C9;
+}
+
+aside{
+		margin-top: 10px;
+		padding: 10px;
+		background: #4A3A25;
+			color: #849F9A;
+}
 
 .navbar .nav-item .nav-link{
 	color: #242220;
 }
 
-.contenedor-main{
-	margin-bottom: 20px;
+.sucursales{
+	height: 120px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+.colm1{
+	background:#849F9A ;
+	outline: 1px solid #000;
+}
+.colm2{
+	background: #7BC1B7;
+	outline: 1px solid #000;
 }
 
 body{
 	/*background-image: url("fondo.webp");*/
-	background-image: url("fondo2.png");
 	background: #776b57;
 }
-
-main{
-	background: #275942;
+.zona-registro{
+	background: #364D5D;
 	padding: 20px;
-	margin-right:  10;
-
-}
-
-aside{
-	background: #3FA659;
-	color: #1F3740 ;
-	padding: 20px 60px;
-	margin-bottom: 20px;
-	margin-top: 20px;
-}
-
-.widgets>div {
-	background: #FC7BFA;
-	color: #1F3740;
-	margin-bottom: 20px;
-	padding: 20px;
-}
-
-footer{
-	background: #50F279;
-	color:#1F3740;
-
 }
