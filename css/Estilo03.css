@@ -1,12 +1,17 @@
 header{
 	background: #D9435F;
-	padding: 20px; 
+	padding: 20px;
 	margin-bottom: 20px;
 	color:#1F3740;
 }
 .navbar{
-	background: #C600FF;
-	color:#1F3740;
+	background: #fff;
+	opacity: 0.7;
+}
+
+
+.navbar .nav-item .nav-link{
+	color: #242220;
 }
 
 .contenedor-main{
@@ -16,7 +21,7 @@ header{
 body{
 	/*background-image: url("fondo.webp");*/
 	background-image: url("fondo2.png");
-	background: #275942;
+	background: #d1c3b1;
 }
 
 main{
@@ -29,7 +34,7 @@ main{
 aside{
 	background: #3FA659;
 	color: #1F3740 ;
-	padding: 20px 60px; 
+	padding: 20px 60px;
 	margin-bottom: 20px;
 	margin-top: 20px;
 }
