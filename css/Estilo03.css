@@ -1,9 +1,13 @@
-header{
-	background: #D9435F;
-	padding: 20px;
-	margin-bottom: 20px;
-	color:#1F3740;
+.contenedor-main{
+	margin-top: 10px;
+	margin-bottom: 10px;
+	background: #364D5D;
 }
+.contenedor-imagen{
+	max-height: 450px;
+	overflow: hidden;
+}
+
 .navbar{
 	background: #fff;
 	opacity: 0.7;
@@ -21,7 +25,7 @@ header{
 body{
 	/*background-image: url("fondo.webp");*/
 	background-image: url("fondo2.png");
-	background: #d1c3b1;
+	background: #776b57;
 }
 
 main{
