@@ -1,5 +1,5 @@
 h1{
-	text-shadow: 10px 10px 5px #3A4491;
+	text-shadow: 2px 2px 2px #3A4491;
 }
 
 aside{
@@ -16,11 +16,10 @@ img{
 	box-shadow: 2px 2px 10px #999;
 }
 
-body{
-	/*background-image: url("fondo2.png");*/
-	background-position: center;
-	background-repeat: no-repeat;
-	background-attachment: fixed;
-	background-size: cover;
 
+container{
+	background:
+}
+.resG{
+	padding: 20px;
 }
