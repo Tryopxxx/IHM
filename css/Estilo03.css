@@ -1,19 +1,17 @@
 h1{
-	text-shadow: 2px 2px 2px #3A4491;
+	text-shadow: 1px 1px 1px #3A4491;
+	color: #000;
 }
 
-aside{
-		margin-top: 10px;
-		padding: 10px;
-		background: #4A3A25;
-			color: #849F9A;
-}
+
 img{
-	filter: drop-shadow(5px 5px 10px #444);
+	/*filter: drop-shadow(5px 5px 10px #444);*/
 }
 
 .sombra{
 	box-shadow: 2px 2px 10px #999;
+	margin: 20px;
+	background: white;
 }
 
 
@@ -22,4 +20,28 @@ container{
 }
 .resG{
 	padding: 20px;
+}
+.migajas-pan{
+	padding: 5px;
+	margin-bottom: 5px;
+	color: #000;
+
+}
+.migaja{
+	background: #9F6AA6;
+}
+body{
+	background: #F7D1FA;
+}
+
+.btn-ttc {
+	margin-top: 20px;
+  color: Black;
+  text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
+  background-color: #8A038C;
+	padding: 20px;
+}
+
+.registro-datos{
+	background: #F8E9FB;
 }
