@@ -3,6 +3,9 @@ h1{
 	color: #000;
 }
 
+c2{
+	background: #000;
+}
 
 img{
 	/*filter: drop-shadow(5px 5px 10px #444);*/
@@ -14,10 +17,32 @@ img{
 	background: white;
 }
 
-
-container{
-	background:
+.preguntas-encuesta{
+		outline: 0.001px solid #000;
 }
+.preguntas-encuesta input[type="radio"]{
+	margin-top: 10px;
+	margin-bottom: 10px;
+	width: 45px;
+	height: 45px;
+}
+.texto{
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+}
+
+h4{
+	text-align: center;
+	margin: auto;
+}
+
+p{
+	text-align: center;
+	margin: auto;
+}
+
+
 .resG{
 	padding: 20px;
 }
