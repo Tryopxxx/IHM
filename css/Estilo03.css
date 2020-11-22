@@ -11,6 +11,22 @@ img{
 	/*filter: drop-shadow(5px 5px 10px #444);*/
 }
 
+.area-sugerencia{
+	margin-top: 10px;
+	margin-bottom: 20px;
+
+}
+
+.info-cliente{
+	margin-top: 5px;
+	background: #0367A6;
+	color: #fff;
+}
+
+.area-texto{
+	padding: 0px;
+}
+
 .sombra{
 	box-shadow: 2px 2px 10px #999;
 	margin: 20px;
@@ -18,7 +34,7 @@ img{
 }
 
 .preguntas-encuesta{
-		outline: 0.001px solid #000;
+		box-shadow: 1px 1px 2px #999;
 }
 .preguntas-encuesta input[type="radio"]{
 	margin-top: 10px;
@@ -38,25 +54,27 @@ h4{
 }
 
 p{
-	text-align: center;
 	margin: auto;
+	width: 100%;
 }
 
 
-.resG{
-	padding: 20px;
-}
+
 .migajas-pan{
 	padding: 5px;
 	margin-bottom: 5px;
 	color: #000;
 
 }
+
 .migaja{
 	background: #9F6AA6;
 }
+.contenedor-cabecera{
+	margin-bottom: 20px;
+}
 body{
-	background: #F7D1FA;
+	background: #F2F2F2;
 }
 
 .btn-ttc {
@@ -67,6 +85,43 @@ body{
 	padding: 20px;
 }
 
-.registro-datos{
-	background: #F8E9FB;
+.accordion{
+	margin: inherit;
+	margin-bottom: 10px;
+	margin-top: 10px;
+	width: 100%;
+
+}
+.registro-encuesta img[type="imagen-listo"]{
+	margin-left: 20px;
+}
+
+.accordion button[type="button"]{
+	color: #000;
+}
+
+.accordion button[type="button button2"]{
+	background: #0367A6;
+}
+
+.registro-encuesta{
+	margin-top:5px;
+	display: flex;
+	flex-direction: row;
+	flex-wrap:wrap;
+	background: #E2EBF2;
+}
+
+.imagen-enviado{
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+}
+
+.imagen-enviado img[type="imagen-listo"]{
+	margin: auto;
+}
+.nota-aside{
+	margin-top: 400px;
+	margin-bottom: 20px;
 }
