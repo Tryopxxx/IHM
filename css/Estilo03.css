@@ -48,6 +48,10 @@ img{
 	flex-wrap: wrap;
 }
 
+.caja-boton{
+	width: 100%;
+}
+
 h4{
 	text-align: center;
 	margin: auto;
